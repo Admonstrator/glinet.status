@@ -8,9 +8,9 @@ queried_ip=$(dig @ns2.glddns.com ns2.glddns.com A +short)
 
 # Step 3 & 4: Compare the IPs and set the exit code accordingly
 if [ "$queried_ip" == "$current_ip" ]; then
-	echo "DNS resolution is working fine for ns1.glddns.com"
+	echo "DNS resolution is working fine for ns2.glddns.com"
 	exit 0
 else
-	echo "DNS resolution outtage for for ns1.glddns.com"
+	echo "DNS resolution outtage for for ns2.glddns.com"
 	exit 80
 fi
