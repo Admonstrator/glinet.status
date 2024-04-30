@@ -78,4 +78,4 @@ http-status:https://www.goodcloud.xyz/|GoodCloud Web;200
 # Note: Outage if returncode is not 0, Degraded if returncode is 80
 #
 
-script;./scripts/check-dns.sh
+script;./scripts/check-dns-01.sh|GLDDNS DNS Server #1
