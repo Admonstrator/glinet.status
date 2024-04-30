@@ -18,6 +18,8 @@ jobs:
         run: mkdir -p _site
       - name: Status 🚦
         run: bash status.sh loud
+      - name: Rename file 📝
+        run: mv _site/status_index.html _site/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
