@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Create folder 📁
         run: mkdir -p _site
+      - name: Chmod 🚪
+        run: chmod +x scripts/*.sh
       - name: Status 🚦
         run: bash status.sh loud
       - name: Rename file 📝
