@@ -48,20 +48,23 @@
 # http-status;<URL>;<STATUS CODE>
 #
 http-status;https://forum.gl-inet.com/|GL.iNet Forum (Global);200
-http-status;https://forum.gl-inet.cn/|GL.iNet Forum (Chinese);200
+http-status;https://forum.gl-inet.cn/|GL.iNet Forum (China);200
 http-status;https://www.gl-inet.com/|GL.iNet Main Site;200
 http-status;https://docs.gl-inet.com/|GL.iNet Docs;200
-http-status;https://dl.gl-inet.com|GL.iNet Firmware Website;200
+http-status;https://dl.gl-inet.com|GL.iNet Firmware Website (used for manually downloading);200
+http-status;https://fw.gl-inet.com|Firmware Update Server (used by the device itself);200
 http-status;https://store.gl-inet.com/|GL.iNet Store (Global);200
 http-status;https://store-us.gl-inet.com/|GL.iNet Store (US);200
 http-status;https://store-eu.gl-inet.com/|GL.iNet Store (EU);200
 http-status;https://store-uk.gl-inet.com/|GL.iNet Store (UK);200
 http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
-http-status:https://www.goodcloud.xyz/|GoodCloud (Asia Pacific);200
-http-status:https://cloud-eu.goodcloud.xyz/|GoodCloud (EU);200
-http-status:https://cloud-us.goodcloud.xyz/|GoodCloud (US);200
-http-status;http://monitoring:byadmon@ddns.glddns.com/nic/update|GLDDNS Update Service;401
-http-status;https://fw.gl-inet.com|Firmware Update Server;200
+http-status:https://www.goodcloud.xyz/|GoodCloud Website (China);200
+http-status:https://cloud-eu.goodcloud.xyz/|GoodCloud Website (EU);200
+http-status:https://cloud-us.goodcloud.xyz/|GoodCloud Webiste (US);200
+http-status;https://gslb-cn.goodcloud.xyz/getCaCert/ca.crt|GoodCloud CA Certificate (China);200
+http-status;https://gslb-eu.goodcloud.xyz/getCaCert/ca.crt|GoodCloud CA Certificate (EU);200
+http-status;https://gslb-us.goodcloud.xyz/getCaCert/ca.crt|GoodCloud CA Certificate (US);200
+http-status;http://monitoring:byadmon@ddns.glddns.com/nic/update|GLDDNS Update Service API (used for update / register DDNS);401
 
 #
 # grep;<URL>;<ONE WORD>
