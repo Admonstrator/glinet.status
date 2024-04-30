@@ -31,31 +31,33 @@
 #
 # ping;<HOSTNAME or IP>
 #
-ping;www.heise.de
-ping;www.otto.de|custom text instead of hostname
-ping6;www.google.com|www.google.com (IPv6)
+#ping;www.heise.de
+#ping;www.otto.de|custom text instead of hostname
+#ping6;www.google.com|www.google.com (IPv6)
 #
 # nc;<HOSTNAME or IP>;<PORT>
 #
-nc;www.heise.de;80
-nc;www.bsi.de|My secret Hostname;80
+#nc;www.heise.de;80
+#nc;www.bsi.de|My secret Hostname;80
 
 #
 # curl;<URL>;<PORT>
 #
-curl;https://www.heise.de/ping
-curl;ftp://ftp.debian.org/debian/README
-curl;https://example.com/|My secret URL
 
 #
 # http-status;<URL>;<STATUS CODE>
 #
-http-status;https://www.nkn-it.de/ci.txt;200
+http-status;https://forum.gl-inet.com/|GL.iNet Forum;200
+http-status;https://store.gl-inet.com/|GL.iNet Store (Global);200
+http-status;https://store-us.gl-inet.com/|GL.iNet Store (US);200
+http-status;https://store-eu.gl-inet.com/|GL.iNet Store (EU);200
+http-status;https://store-uk.gl-inet.com/|GL.iNet Store (UK);200
+http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
 
 #
 # grep;<URL>;<ONE WORD>
 #
-grep;https://www.nkn-it.de/imprint.html;Nils
+#grep;https://www.nkn-it.de/imprint.html;Nils
 
 
 #
@@ -67,13 +69,11 @@ grep;https://www.nkn-it.de/imprint.html;Nils
 # MAX NUMBER OF HOPS sets the max time-to-live (max number of hops) used in outgoing probe packets.
 # If the hostname should always be the third hop, enter 3.
 #
-traceroute;your.isp.router;3
-traceroute;your.secret.router|My secret Hostname;2
+
 
 #
 # script;<PATH>
 # 
 # Note: Outage if returncode is not 0, Degraded if returncode is 80
 #
-script;/path/to/your/script.sh|My secret Name
-script;scripts/check-websites.sh|Multiple Websites
+
