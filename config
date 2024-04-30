@@ -12,7 +12,7 @@ MY_HOMEPAGE_URL="https://forum.gl-inet.com/u/admon/summary"
 MY_HOMEPAGE_TITLE="Contact me on the GL.iNet forum"
 
 # Auto refresh interval in seconds 0 is no refresh
-MY_AUTOREFRESH="0"
+MY_AUTOREFRESH="300"
 
 # Shortcut to place the configuration file in a folder.
 # Save it without / at the end.
@@ -69,7 +69,7 @@ MY_STATUS_STYLESHEET="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4
 MY_STATUS_FONTAWESOME="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
 
 # A footer
-MY_STATUS_FOOTER='Powered by <a href="https://github.com/Cyclenerd/static_status">static_status</a>'
+MY_STATUS_FOOTER='Created by <a href="https://forum.gl-inet.com/u/admon/summary" target="_blank">Admon</a> for the GL.iNet Community | Powered by <a href="https://github.com/Cyclenerd/static_status">static_status</a>'
 
 # Lock file to prevent duplicate execution.
 # If this file exists, status.sh script is terminated.
