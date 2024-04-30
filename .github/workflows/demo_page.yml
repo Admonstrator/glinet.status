@@ -12,10 +12,12 @@ jobs:
     steps:
       - name: Dependencies 🔧
         run: sudo apt-get install curl iputils-ping traceroute netcat-openbsd grep sed
+      - name: Create folder 📁
+        run: mkdir -p _site
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Status 🚦
-        run: bash status.sh loud >> _site/index.html
+        run: bash status.sh loud
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

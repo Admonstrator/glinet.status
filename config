@@ -6,10 +6,10 @@
 MY_STATUS_TITLE="GL.iNet Status Page"
 
 # Link for the homepage button
-MY_HOMEPAGE_URL="https://admon.in.ua"
+MY_HOMEPAGE_URL="https://forum.gl-inet.com/u/admon/summary"
 
 # Text for the homepage button
-MY_HOMEPAGE_TITLE="Homepage"
+MY_HOMEPAGE_TITLE="Contact me on the GL.iNet forum"
 
 # Auto refresh interval in seconds 0 is no refresh
 MY_AUTOREFRESH="0"
