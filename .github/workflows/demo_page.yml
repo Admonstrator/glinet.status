@@ -1,4 +1,4 @@
-name: "Update status demo page"
+name: "Update Status page"
 on:
   workflow_dispatch:
 permissions:

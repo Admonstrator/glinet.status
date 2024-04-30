@@ -3,10 +3,10 @@
 ################################################################################
 
 # Title for the status page
-MY_STATUS_TITLE="Status Page"
+MY_STATUS_TITLE="GL.iNet Status Page"
 
 # Link for the homepage button
-MY_HOMEPAGE_URL="https://github.com/Cyclenerd/static_status"
+MY_HOMEPAGE_URL="https://admon.in.ua"
 
 # Text for the homepage button
 MY_HOMEPAGE_TITLE="Homepage"
