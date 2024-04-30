@@ -56,6 +56,7 @@ http-status;https://store-eu.gl-inet.com/|GL.iNet Store (EU);200
 http-status;https://store-uk.gl-inet.com/|GL.iNet Store (UK);200
 http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
 http-status:https://www.goodcloud.xyz/|GoodCloud Web;200
+curl;https://monitoring:byadmon@ddns.glddns.com/nic/update|GLDDNS Update Service;443
 
 #
 # grep;<URL>;<ONE WORD>
