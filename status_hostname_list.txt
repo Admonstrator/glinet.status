@@ -47,12 +47,15 @@
 #
 # http-status;<URL>;<STATUS CODE>
 #
-http-status;https://forum.gl-inet.com/|GL.iNet Forum;200
+http-status;https://forum.gl-inet.com/|GL.iNet Forum (Global);200
+http-status;https://forum.gl-inet.cn/|GL.iNet Forum (Chinese);200
+http-status;https://www.gl-inet.com/|GL.iNet Main Site;200
 http-status;https://store.gl-inet.com/|GL.iNet Store (Global);200
 http-status;https://store-us.gl-inet.com/|GL.iNet Store (US);200
 http-status;https://store-eu.gl-inet.com/|GL.iNet Store (EU);200
 http-status;https://store-uk.gl-inet.com/|GL.iNet Store (UK);200
 http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
+http-status:https://www.goodcloud.xyz/|GoodCloud Web;200
 
 #
 # grep;<URL>;<ONE WORD>
@@ -68,8 +71,6 @@ http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
 # This HOSTNAME or IP must be present in the route path.
 # MAX NUMBER OF HOPS sets the max time-to-live (max number of hops) used in outgoing probe packets.
 # If the hostname should always be the third hop, enter 3.
-#
-
 
 #
 # script;<PATH>
@@ -77,3 +78,4 @@ http-status;https://store-ca.gl-inet.com/|GL.iNet Store (CA);200
 # Note: Outage if returncode is not 0, Degraded if returncode is 80
 #
 
+script;./scripts/check-dns.sh

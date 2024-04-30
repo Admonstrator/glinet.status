@@ -1,0 +1,2 @@
+ns1.glddns.com
+ns2.glddns.com

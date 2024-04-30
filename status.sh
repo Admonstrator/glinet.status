@@ -9,7 +9,7 @@ ME=$(basename "$0")
 BASE_PATH=$(dirname "$0")
 MY_TIMESTAMP=$(date -u "+%s")
 MY_LASTRUN_TIME="0"
-BE_LOUD="yes"
+BE_LOUD="no"
 BE_QUIET="no"
 
 ################################################################################
