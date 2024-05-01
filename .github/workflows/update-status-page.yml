@@ -1,8 +1,12 @@
 name: "Update Status page"
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - master
+  
 permissions:
   contents: read
   pages: write
@@ -12,8 +16,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Dependencies 🔧
-        run: sudo apt-get install curl iputils-ping traceroute netcat-openbsd grep sed
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Create folder 📁
