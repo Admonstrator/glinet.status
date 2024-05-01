@@ -45,6 +45,11 @@ MY_TIMEOUT="2"
 MY_PING_TIMEOUT="4"
 MY_PING_COUNT="2"
 
+# Route to host
+MY_TRACEROUTE_HOST="" # Cloudflare DNS
+# Sets the number of probe packets per hop
+MY_TRACEROUTE_NQUERIES=""
+
 # Location for the status files. Please do not edit created files.
 MY_HOSTNAME_STATUS_OK="$MY_STATUS_CONFIG_DIR/status_hostname_ok.txt"
 MY_HOSTNAME_STATUS_DOWN="$MY_STATUS_CONFIG_DIR/status_hostname_down.txt"
