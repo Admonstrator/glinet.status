@@ -727,10 +727,6 @@ MY_COMMANDS=(
 	grep
 	sed
 )
-# Add traceroute optional if MY_TRACEROUTE_HOST is set
-if [[ -n "$MY_TRACEROUTE_HOST" ]]; then
-	MY_COMMANDS+=("traceroute")
-fi
 
 if [[ -n "$ONLY_OUTPUT_DEBUG_VARIABLES" ]]; then
 	debug_variables
